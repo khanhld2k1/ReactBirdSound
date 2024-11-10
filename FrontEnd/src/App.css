@@ -1,0 +1,75 @@
+#root {
+  width: 100%;
+  height:100%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  color:white;
+}
+
+.appContainer{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+  /* margin-bottom: 5vh; */
+}
+.title{
+  font-size: 100px;
+  font-weight: 600;
+  font-style: normal;
+}
+.uploadContainer{
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.resultContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.resultTitle{
+  text-align: center;
+  font-size: 4vh;
+}
+.resultInfo{
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  justify-content: center;
+}
+.resultImageWrapper{
+  align-self: center;
+}
+.resultImageContainer{
+  max-width: 35vw;
+  width: 35vw;
+}
+.resultImage{
+  max-width: inherit;
+  width: inherit;
+}
+.resultDescription{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 40vw;
+  text-align: left;
+}
+.resultDescriptionTitle{
+  font-size: 3vh;
+  /* font-style: italic; */
+  font-weight: bold;
+}
+.resultDescriptionDetail{
+  font-size: larger;
+  max-width: 20vw;
+  margin-bottom: 2vh;
+}
